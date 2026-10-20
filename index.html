@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kervie Roca — IT Student &amp; Web Developer</title>
+  <meta name="description" content="Portfolio of Kervie Compra Roca, a BSIT student from Cebu City building web apps, games and digital experiences with code, creativity and technology.">
+  <meta name="theme-color" content="#111111">
+  <meta property="og:title" content="Kervie Roca — IT Student & Web Developer">
+  <meta property="og:description" content="Building digital experiences through code, creativity, and technology.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/byokz.webp">
+  <link rel="preload" href="assets/byokz.webp" as="image">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a class="logo" href="#home" aria-label="Kervie Roca — back to top">
+      <span>KERVIE</span><span>ROCA</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__city" data-parallax="0.10"></div>
+        <div class="hero__fog" data-parallax="0.18"></div>
+        <div class="hero__glow"></div>
+      </div>
+
+      <div class="hero__stage">
+        <!-- name behind the portrait -->
+        <h1 class="hero__word" aria-label="Kervie Roca, IT student">
+          <span class="hero__line"><span class="hero__letter" style="--i:0" aria-hidden="true"><i>K</i></span><span class="hero__letter" style="--i:1" aria-hidden="true"><i>E</i></span><span class="hero__letter" style="--i:2" aria-hidden="true"><i>R</i></span><span class="hero__letter" style="--i:3" aria-hidden="true"><i>V</i></span><span class="hero__letter" style="--i:4" aria-hidden="true"><i>I</i></span><span class="hero__letter" style="--i:5" aria-hidden="true"><i>E</i></span></span>
+        </h1>
+
+        <div class="hero__portrait" data-parallax="-0.04">
+          <img class="hero__portrait-bw" src="assets/byokz.webp" alt="Black and white portrait of Kervie Roca in a black suit and tie" width="1062" height="1100">
+          <img class="hero__portrait-color" src="assets/byokz.webp" alt="" width="1062" height="1100" aria-hidden="true" loading="lazy">
+        </div>
+
+        <!-- faint outline copy so the covered letters still read -->
+        <div class="hero__word hero__word--outline" aria-hidden="true">
+          <span class="hero__line"><span class="hero__letter" style="--i:0"><i>K</i></span><span class="hero__letter" style="--i:1"><i>E</i></span><span class="hero__letter" style="--i:2"><i>R</i></span><span class="hero__letter" style="--i:3"><i>V</i></span><span class="hero__letter" style="--i:4"><i>I</i></span><span class="hero__letter" style="--i:5"><i>E</i></span></span>
+        </div>
+      </div>
+
+      <p class="hero__vertical" aria-hidden="true">IT Student &nbsp;|&nbsp; Cebu, PH</p>
+
+      <div class="hero__intro">
+        <h2 class="hero__tagline">Building systems,<br>one line at a time.</h2>
+        <p class="hero__lede">IT student focused on creating simple solutions for a better tomorrow.</p>
+        <a class="hero__arrow" href="#projects" aria-label="See my projects">
+          <svg viewBox="0 0 140 20" width="140" height="20" aria-hidden="true"><path d="M0 10 H136 M126 2 L136 10 L126 18" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <p class="section__label reveal">01 / About me</p>
+      <div class="about__grid">
+        <div class="about__text">
+          <h2 class="display reveal" id="about-title">Code, curiosity <em>&amp;</em> a bit of everything.</h2>
+          <div class="about__body reveal">
+            <p>I'm Kervie Compra Roca, a Bachelor of Science in Information Technology student based in Cebu City. I like building things people can actually click on: web apps, small games, and tools that make a messy task simpler.</p>
+            <p>Most of my projects start as team builds. A Laravel racing game with a live leaderboard, a Django lost-and-found system for school, a card game with my teammates. Along the way I've picked up graphic design and hands-on hardware work: assembling, configuring and troubleshooting PCs.</p>
+            <p>My approach is simple. Break the problem down, ship something that works, then make it better. I'm adaptable, comfortable juggling several tasks at once, and happy to lead or to pitch in, whatever the team needs.</p>
+          </div>
+          <dl class="about__facts reveal">
+            <div><dt>Based in</dt><dd>Cebu City, PH</dd></div>
+            <div><dt>Studying</dt><dd>BS Information Technology</dd></div>
+            <div><dt>Focus</dt><dd>Web development</dd></div>
+            <div><dt>Off-screen</dt><dd>Basketball &amp; the outdoors</dd></div>
+          </dl>
+        </div>
+        <figure class="about__figure reveal">
+          <div class="about__photo"><img src="assets/kervie-small.webp" alt="Black and white portrait of Kervie Roca smiling" width="700" height="887" loading="lazy"></div>
+          <figcaption><span>K.C. Roca</span><span>Cebu City — 2026</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="timeline reveal" aria-label="Education and experience">
+        <div class="timeline__row">
+          <span class="timeline__year">Present</span>
+          <span class="timeline__what">BS Information Technology</span>
+          <span class="timeline__where">Tertiary — Cebu City</span>
+        </div>
+        <div class="timeline__row">
+          <span class="timeline__year">Immersion</span>
+          <span class="timeline__what">Work Immersion Trainee</span>
+          <span class="timeline__where">Palm Grass Hotel, Cebu — F&amp;B, banquet &amp; events, barback, room service</span>
+        </div>
+        <div class="timeline__row">
+          <span class="timeline__year">2022–23</span>
+          <span class="timeline__what">Senior High School</span>
+          <span class="timeline__where">Tejero National High School</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="section__head">
+        <p class="section__label reveal">02 / Selected work</p>
+        <h2 class="display reveal" id="projects-title">The <em>archive</em>.</h2>
+        <p class="section__note reveal">Projects pulled straight from my GitHub, from team builds to small experiments.</p>
+      </div>
+
+      <!-- featured: Rule Card -->
+      <article class="feature reveal" aria-labelledby="feature-title">
+        <div class="feature__media">
+          <button class="feature__poster" type="button" data-video="https://drive.google.com/file/d/1b8DMHN7qp2bktXebrO58-HOaU-WYNo_r/preview" aria-label="Play Rule Card gameplay video">
+            <span class="feature__cards" aria-hidden="true">
+              <span class="pcard"><b>R</b></span><span class="pcard"><b>U</b></span><span class="pcard"><b>L</b></span><span class="pcard"><b>E</b></span>
+            </span>
+            <span class="feature__play" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+            <span class="feature__hint">Play gameplay demo</span>
+          </button>
+        </div>
+        <div class="feature__info">
+          <p class="feature__num">01 — Featured</p>
+          <h3 class="feature__title" id="feature-title">Rule Card</h3>
+          <p>A card game built as a team. Watch the gameplay demo for a quick look at how a round plays out.</p>
+          <ul class="tags"><li>Game</li><li>Team project</li></ul>
+          <div class="feature__links">
+            <a class="link-arrow" href="https://github.com/byokz02/Rule-Card" target="_blank" rel="noopener">GitHub repo</a>
+            <a class="link-arrow" href="https://drive.google.com/file/d/1b8DMHN7qp2bktXebrO58-HOaU-WYNo_r/view" target="_blank" rel="noopener">Open video</a>
+          </div>
+        </div>
+      </article>
+
+      <ol class="archive" id="archive" aria-label="Project list"></ol>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <p class="vertical-tag" aria-hidden="true">Toolkit — 2026</p>
+      <div class="section__head">
+        <p class="section__label reveal">03 / Skills</p>
+        <h2 class="display reveal" id="skills-title">What I work <em>with</em>.</h2>
+      </div>
+      <div class="skills__grid">
+        <div class="skill reveal">
+          <h3><span>01</span>Languages</h3>
+          <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>Python</li></ul>
+        </div>
+        <div class="skill reveal">
+          <h3><span>02</span>Web development</h3>
+          <ul><li>Laravel</li><li>Django</li><li>Responsive layouts</li><li>Fetch API &amp; REST</li><li>Google Apps Script</li></ul>
+        </div>
+        <div class="skill reveal">
+          <h3><span>03</span>Databases</h3>
+          <ul><li>MySQL</li><li>Django ORM</li><li>Google Sheets as a backend</li></ul>
+        </div>
+        <div class="skill reveal">
+          <h3><span>04</span>Tools</h3>
+          <ul><li>Git &amp; GitHub</li><li>Composer &amp; NPM</li><li>XAMPP</li><li>Google Workspace</li><li>Microsoft Office</li></ul>
+        </div>
+        <div class="skill reveal">
+          <h3><span>05</span>Hardware</h3>
+          <ul><li>PC assembly &amp; configuration</li><li>Hardware troubleshooting</li></ul>
+        </div>
+        <div class="skill reveal">
+          <h3><span>06</span>Design &amp; people</h3>
+          <ul><li>Graphic design</li><li>Team leadership</li><li>Communication</li><li>Teamwork</li><li>Multitasking under pressure</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <p class="section__label reveal">04 / Contact</p>
+      <h2 class="contact__title reveal" id="contact-title"><span>Let's build</span><span>something.</span></h2>
+      <div class="contact__row">
+        <p class="contact__lede reveal">Have an idea, a project, or an opportunity to collaborate? Let's connect.</p>
+        <a class="contact__btn reveal" href="mailto:kervieroca02@gmail.com">
+          <span>Say hello</span>
+          <span class="circle-btn circle-btn--light" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        </a>
+      </div>
+      <ul class="contact__links reveal">
+        <li><a href="mailto:kervieroca02@gmail.com"><span>Email</span><span>kervieroca02@gmail.com</span></a></li>
+        <li><a href="https://github.com/byokz02" target="_blank" rel="noopener"><span>GitHub</span><span>@byokz02</span></a></li>
+        <li><a href="https://www.facebook.com/kerbyokz02" target="_blank" rel="noopener"><span>Facebook</span><span>kerbyokz02</span></a></li>
+      </ul>
+      <footer class="footer">
+        <span>© <span id="year">2026</span> Kervie Compra Roca</span>
+        <span>Cebu City, Philippines</span>
+        <a href="#home">Back to top ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
